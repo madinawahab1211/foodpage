@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+
+html {
+    background-color: #FFEDDF;
+}
+
+.logo {
+    margin: 0px;
+    width:150px;
+    height: auto;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    background: #EB9486;
+    padding-top: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    align-items:flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 70px;
+    justify-content: right;
+}
+
+nav li {
+    margin-left: 50px;
+    float: right;
+    padding-top:30px;
+}
