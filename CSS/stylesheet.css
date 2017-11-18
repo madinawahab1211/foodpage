@@ -40,3 +40,12 @@ nav li {
     float: right;
     padding-top:30px;
 }
+
+.banner {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/banner.jpeg");
+    background-size: cover;
+    background-position: top;
+}
