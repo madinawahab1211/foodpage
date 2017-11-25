@@ -7,6 +7,7 @@
     padding: 0;
     text-decoration: none;
     }
+    
 
 html {
     background-color: #FFEDDF;
@@ -33,19 +34,47 @@ nav ul {
     list-style: none;
     padding-left: 70px;
     justify-content: right;
+    
 }
 
 nav li {
     margin-left: 50px;
     float: right;
     padding-top:30px;
-}
+    color: #91818A;
+    text-decoration: none;
+    }
 
 .banner {
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../images/banner.jpeg");
+    width: 100%;
+    height: 150px;
     background-size: cover;
-    background-position: top;
+    background-image: url("../images/banner.jpeg");
+    background-position: bottom;
+    filter: sepia(100%);
+}
+
+.banner h1 {
+    color: #B5C9C3;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div h1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: left;
+}
+
+.col {
+    padding: 16px;
+    width: 50%;
+}
+
+.columnimage {
+    display: block;
+    margin: auto;
 }
